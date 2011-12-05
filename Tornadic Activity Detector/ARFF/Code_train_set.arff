@@ -1,0 +1,21 @@
+@relation 'training set'
+
+@attribute BOL_PRP numeric
+@attribute CONTAINS_NON_STOP numeric
+@attribute PERIOD numeric
+@attribute PRP_VBP numeric
+@attribute take numeric
+@attribute line_length numeric
+@attribute CLASS {Question,Statement}
+
+@data
+0,1,1,0,0,0.230769,Question
+0,1,1,0,0,0.076923,Statement
+0,1,0,0,0,0,Question
+1,1,1,1,0,0.153846,Statement
+0,1,0,1,0,0.230769,Question
+1,1,1,1,0,0.153846,Statement
+0,1,0,0,1,0.076923,Question
+1,1,1,0,1,0.307692,Statement
+0,1,1,1,0,0.384615,Question
+1,1,1,1,0,0,Statement

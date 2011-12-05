@@ -1,0 +1,5 @@
+begin   <first-capitalised>	  NP
+end		  as										NNFS
+end     a											NNF
+end     s               			NNMS
+default                 			NNM

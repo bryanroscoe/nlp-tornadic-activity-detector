@@ -1,0 +1,15 @@
+@relation 'test set'
+
+@attribute BOL_PRP numeric
+@attribute CONTAINS_NON_STOP numeric
+@attribute PERIOD numeric
+@attribute PRP_VBP numeric
+@attribute take numeric
+@attribute line_length numeric
+@attribute CLASS {Question,Statement}
+
+@data
+1,1,1,1,1,1,?
+0,1,0,0,1,0.076923,?
+0,1,1,0,1,0.230769,?
+0,1,0,0,0,0,?
