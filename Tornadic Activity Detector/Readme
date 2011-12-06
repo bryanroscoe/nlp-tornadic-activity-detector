@@ -1,0 +1,6 @@
+The entire project has been implemented as an INTELLIJ JAVA project. And hence, would be easiest to just open this as an IntelliJ project and run the class StreamingFeed.
+
+The output of classified streams get appended to the file OUTPUT/onlineTornadoTweetAnalyzer
+This file can be monitored for viewing updates on the file to get a live stream of tweets, classifications and locations. The simplest way to do this would be to open terminal (mac), bash (linux) or some shell scripting utility in windows that would let you perform UNIX like commands. Go to the directory in concern and type "tail -f onlineTornadoTweetAnalyzer"
+
+This should enable you to monitor the file updates as the program runs.
